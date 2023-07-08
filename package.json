@@ -29,6 +29,7 @@
     "use-web3forms": "^1.2.1"
   },
   "devDependencies": {
+    "@ahdcreative/voloteavirtual-tailwind-config": "^0.5.2",
     "@types/node": "^20.4.1",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
