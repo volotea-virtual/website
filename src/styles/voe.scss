@@ -48,7 +48,15 @@
 		font-size: 1.18em;
 	}
 }
-.v7-main-title__i.v7-i {
+.v7-main-title__i {
+	position: relative;
+	transform: none;
+	top: -.069em;
+	left: auto;
+	font-size: 1.18em;
+}
+
+.v7-i {
 	position: relative;
 	transform: none;
 	top: -.069em;

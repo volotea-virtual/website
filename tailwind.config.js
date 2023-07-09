@@ -10,6 +10,9 @@ module.exports = {
             center: true,
             padding: '2rem'
         },
+        backgroundColor: theme => ({
+            'voebtn': '#e10e49'
+        }),
         fontFamily: { sans: ['Volotea Sans', ...defaultTheme.fontFamily.sans]},
         extend: {
             height: {200: '50rem', ...defaultTheme.height},
