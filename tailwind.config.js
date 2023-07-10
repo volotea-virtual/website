@@ -8,10 +8,15 @@ module.exports = {
     theme: {
         container: {
             center: true,
-            padding: '2rem'
+            padding: {
+                left: '14px',
+                right: '14px',
+                DEFAULT: '2rem'
+            }
         },
         backgroundColor: theme => ({
-            'voebtn': '#e10e49'
+            'voebtn': '#e10e49',
+            'voebtn2': '#452325'
         }),
         fontFamily: { sans: ['Volotea Sans', ...defaultTheme.fontFamily.sans]},
         extend: {
@@ -38,6 +43,10 @@ module.exports = {
                     DEFAULT: 'hsl(235,86%,65%)',
                     dark: 'hsl(235,60%,54%)'
                 },
+                volotea: {
+                    brand: '#e10e49',
+                    DEFAULT: '#452325'
+                }
             },
             zIndex: {'-10': '-10'},
             typography: {
